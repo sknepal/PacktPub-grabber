@@ -1,6 +1,6 @@
 # PacktPub Grabber
 
-Grabs [https://www.packtpub.com/packt/offers/free-learning](Today's Free Learning eBook from PacktPub) & notifies you via Email.
+Grabs [Today's Free Learning eBook from PacktPub](https://www.packtpub.com/packt/offers/free-learning) & notifies you via Email.
 
 ## Dependencies
 
@@ -13,7 +13,7 @@ pip install mechanize
 Steps to configure the script.
 
 ####PacktPub Account Information
-Replace USERNAME and PASSWORD on line 8 and 9 with your packtpub username (email address) and password.
+Replace USERNAME and PASSWORD on line 8 and 9 with your PacktPub username (email address) and password.
 
 ```python
     br.form["email"] = "USERNAME"
@@ -25,7 +25,7 @@ Replace USERNAME and PASSWORD on line 8 and 9 with your packtpub username (email
 The script sends the email from a Gmail address you specify to your another email address. Note that, only Gmail account is accepted for sending email. I'd advise not to use your existing Gmail account since you need to enable access for less secure apps. 
 
 * Create a new Gmail account.
-* [https://support.google.com/accounts/answer/6010255?hl=en](Enable access for less secure apps) on the (new) sending Gmail account.
+* [Enable access for less secure apps](https://support.google.com/accounts/answer/6010255?hl=en) on the (new) sending Gmail account.
 * Replace the "FROM", "TO", and "EMAIL PASSWORD" on the last line with your sending Gmail address, receiving Email address and the sending Gmail account's password respectively. 
 
 ```python
