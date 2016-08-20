@@ -33,6 +33,8 @@ The script sends the email from a Gmail address you specify to your another emai
 ``` 
 After each run, you'll receive an email in the "TO" address with the success/failure message.
 
+![Email From PacktPub Grabber](https://cloud.githubusercontent.com/assets/5013296/17832328/c5f7f45c-671f-11e6-986f-cd78133329d4.png)
+
 ## Run
 Two ways to go about running the script.
 
