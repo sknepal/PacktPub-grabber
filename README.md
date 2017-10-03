@@ -12,7 +12,7 @@ pip install mechanize
 ## Configuration
 Steps to configure the script.
 
-####PacktPub Account Information
+#### PacktPub Account Information
 Replace USERNAME and PASSWORD on line 8 and 9 with your PacktPub username (email address) and password.
 
 ```python
@@ -20,7 +20,7 @@ Replace USERNAME and PASSWORD on line 8 and 9 with your PacktPub username (email
     br.form["password"] = "PASSWORD"
 ```
 
-####Email Account Information
+#### Email Account Information
 
 The script sends the email from a Gmail address you specify to your another email address. Note that, only Gmail account is accepted for sending email. I'd advise not to use your existing Gmail account since you need to enable access for less secure apps. 
 
@@ -38,13 +38,13 @@ After each run, you'll receive an email in the "TO" address with the success/fai
 ## Run
 Two ways to go about running the script.
 
-####Manually
+#### Manually
 To run manually, simply go to the shell and type:
 
 ```python
     python /path/to/packtpub-grabber/packtpub-grabber.py
 ```
-####Automatically
+#### Automatically
 Since the purpose of the script is to automate the whole process of getting a free Ebook everyday, you should choose an automated way. So, put the script on your VPS and then setup a cron job so that the script runs everyday on the given time. 
 
 Run _crontab -e_ and add the following lines to run the script everday at 6.30 PM. 
