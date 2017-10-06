@@ -5,10 +5,12 @@ Grabs [Today's Free Learning eBook from PacktPub](https://www.packtpub.com/packt
 ## Dependencies
 
 ```sh
-pip install beautifulsoup4
-pip install mechanize
+pip install -r requirements.txt
 ```
-
+Or, on Arch Linux:
+```sh
+pip2 install -r requirements.txt
+```
 ## Configuration
 Steps to configure the script.
 
